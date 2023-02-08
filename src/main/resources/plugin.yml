@@ -1,0 +1,13 @@
+name: Zebrafisch
+version: 1.0.0
+main: eu.antifuse.zebrafisch.Zebrafisch
+description: Zebrafischiges Zebrafischplugin mit Waypoints
+author: antifuse
+website: https://antifuse.eu
+api-version: 1.19
+commands:
+  waypoint:
+      description: "Adds a waypoint at your current location"
+      usage: "/waypoint <add/get> <name>"
+      aliases: [wp]
+
